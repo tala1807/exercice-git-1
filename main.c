@@ -11,7 +11,7 @@ int main() {
     if (b == 0) {
         printf("Erreur : Division par zéro non permise.\n");
     } else {
-        resultat = a + b;
+        resultat = a / b;
         printf("Le résultat de %.2f / %.2f est : %.2f\n", a, b, resultat);
     }
     
